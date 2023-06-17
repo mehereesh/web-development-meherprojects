@@ -1,0 +1,157 @@
+div{
+display: inline;
+  
+}
+section>div{
+    display: flex;
+    position: relative;
+  }
+  
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 140px;
+    height: 180px;
+  
+    display: block;
+    background-color: #6dafc1;
+  }
+  body {
+    background-image: url('vecteezy_male-character-in-casual-clothes-in-flat-cartoon-style_6828087.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+    border-image: auto;
+  }
+  h1,h2{
+  text-align: center;
+  background-image: url('template.jpg');
+  font-size: xx-large;
+  color: floralwhite;
+  padding: 20px 0 20px 0;
+  }
+   img:hover {
+    box-shadow: 0 0 2px 5px rgba(0, 140, 186, 0.5);
+        border: 1px solid #181717;
+        transform: scale(1.5);
+        margin-left: auto;
+      margin-right: auto;
+          }
+          a {
+            display: block;
+            padding:10px 10px 10px 15px;
+            color: black;
+            font-weight:bolder;
+            font-size: large;
+            background-color: #6dafc161;
+
+          }
+          .navbar {
+            overflow: hidden;
+            background-color: hsl(0, 0%, 20%);
+            font-family: Arial;
+          }
+          .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: #6a54ac;
+          }
+          .dropdown {
+            float: left;
+            overflow: hidden;
+          }
+          .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit; /* Important for vertical align on mobile phones */
+            margin: 0; /* Important for vertical align on mobile phones */
+          }
+          
+         
+          .navbar a:hover, .dropdown:hover .dropbtn {
+            background-color: rgba(229, 182, 182, 0);
+          }
+          
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #925959;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(139, 22, 22, 0.2);
+            z-index: 1;
+          }
+          .dropdown-content a {
+            float: none;
+            color: rgb(65, 53, 53);
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            background-color: #e3c5c5d8;
+            text-align: left;
+          }
+          .dropdown-content a:hover {
+            background-color: #ddd;
+          }
+          .dropdown:hover .dropdown-content {
+            display: block;
+          }
+      
+p{
+  text-align: right;
+  background-color: #ddd;
+  font-size: large;
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+      @media only screen and (max-width: 700px) {
+        .div{
+          width: 30.99999%;
+        
+        }
+      }
+      
+      @media only screen and (max-width: 400px) {
+        .div {
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      
+      .row {
+        display: flex;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 50px;
+      }
+      
+      .column {
+        flex: 30.33%;
+  
+        margin-top: 10px;
+        margin-bottom: 50px;
+      }
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    
+      }
+      @media only screen   
+and (min-device-width : 768px)   
+and (max-device-width : 1024px)  
+{
+.row {
+padding: auto;
+}
+
+  }
+ 
