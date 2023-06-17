@@ -1,0 +1,165 @@
+body {
+  color: #343434;
+  margin: 0;
+  background-image: url('pickyouplace-low-resolution-logo-color-on-transparent-background.png');
+  padding: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body {
+  display: block;
+  margin: 10px;
+  font-size : 15px;
+  line-height: 1.5rem;
+}
+div {
+  display: block;
+}
+topnav{
+  display:inline-flex;
+}
+.topnav a{
+  background-color: #2e281f;
+  font-size: larger;
+  padding: 10px 20px 10px 10px;
+  margin: 10px 10px 10px 20px;
+}
+.head {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+header {
+  background: #2F3061;
+  color: #F7FFF7;
+  margin: 10px;
+  
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.project {
+  background: #F7FFF7;
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.project .btn {
+  color: #F7FFF7;
+  background: #2F3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.project a {
+  color: #2F3061;
+}
+a {
+  color: #FFE66D;
+}
+a:hover{
+  color:aqua
+}
+.project .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+
+.base {
+  background: #A1C6D7;
+}
+.about-items{
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.skills {
+  background-image: url(joanna-kosinska-unsplash.jpg);
+  background-size: cover;
+  background-position: top right;
+  padding-bottom: 100px;
+}
+.skills-content .btn {
+  color: #F7FFF7;
+  background: #2F3061;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.skills-content {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.skills-content  a {
+  color: #2F3061;
+}
+.skills-content a {
+  color: #6d99ff;
+}
+.skills-content a:hover{
+  color:aqua;
+}
+.skills-content .btn:hover {
+  background: rgba(47, 48, 97, 80%);
+}
+.skills img{
+  width: 250px;
+}
+footer {
+    background: #343434;
+    color: #F7FFF7;
+}
+footer {
+  display: block;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.contact-list {
+    justify-content: center;
+}
+.contact-list {
+    list-style-type: none;
+    padding: 0 10px;
+}
+  header, footer {
+    text-align: center;
+  }
+img{
+    width: 300px;
+   }
